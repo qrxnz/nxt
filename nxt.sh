@@ -16,6 +16,14 @@ deno(){
   nix flake init -t github:MordragT/nix-templates#deno
 }
 
+kotlin(){
+  nix flake init -t github:MordragT/nix-templates#kotlin
+}
+
+mdbook(){
+  nix flake init -t github:MordragT/nix-templates#deno
+}
+
 python-micromamba(){
   nix flake init -t github:MordragT/nix-templates#python-micromamba
 }
