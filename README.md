@@ -1,6 +1,7 @@
 # nxt
 
 ## ✒️ Description
+
 > Simple wrapper for nix-templates created using nix & charmbracelet's gum
 
 `nxt` was created to facilitate the creation of projects using [nix-templates](https://github.com/MordragT/nix-templates)
