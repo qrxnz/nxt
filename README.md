@@ -5,7 +5,7 @@
 
 `nxt` was created to facilitate the creation of projects using [nix-templates](https://github.com/MordragT/nix-templates)
 
-<video src='https://github.com/user-attachments/assets/260adff8-15ae-407b-b7e2-7231be706862' width=180/>
+<video src='https://github.com/user-attachments/assets/260adff8-15ae-407b-b7e2-7231be706862' width=180 />
 
 ## ⚒️  Installation
 
