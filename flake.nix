@@ -16,8 +16,8 @@
           buildCommand = "${old.buildCommand}\n patchShebangs $out";
         });
       in rec {
-        defaultPackage = packages.qkit;
-        packages.qkit = pkgs.symlinkJoin {
+        defaultPackage = packages.nxt;
+        packages.nxt = pkgs.symlinkJoin {
           name = my-name;
           paths = [nxt] ++ my-buildInputs;
           buildInputs = [pkgs.makeWrapper];
