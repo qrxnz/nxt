@@ -80,5 +80,9 @@ typst() {
   nix flake init -t github:MordragT/nix-templates#typst
 }
 
-run=$(gum choose "android" "angular" "cpp" "deno" "kotlin" "mdbook" "python-micromamba" "python-poetry" "python-venv" "python" "rust-nightly" "rust-stable" "slides-fh-aachen" "slides" "stm32-platformio" "svelte-tailwind" "tauri" "tex" "trivial" "typst") &&
+slidev() {
+  nix flake init -t github:MordragT/nix-templates#slidev
+}
+
+run=$(gum choose "android" "angular" "cpp" "deno" "kotlin" "mdbook" "python-micromamba" "python-poetry" "python-venv" "python" "rust-nightly" "rust-stable" "slides-fh-aachen" "slides" "stm32-platformio" "svelte-tailwind" "tauri" "tex" "trivial" "typst" "slidev") &&
   $run
