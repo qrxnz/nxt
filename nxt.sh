@@ -33,7 +33,7 @@ python-poetry() {
 }
 
 python-venv() {
-  nix flake init -t github:MordragT/nix-templates#python-poetry
+  nix flake init -t github:MordragT/nix-templates#python-venv
 }
 
 python() {
